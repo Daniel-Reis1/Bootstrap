@@ -1,0 +1,167 @@
+.pelicula {
+    background: rgba(10, 10, 10, 0.219);
+    
+    height: 100vh;
+    
+}
+
+body{
+	width: 100%;
+	height: 100%;
+    background: #0a0a0a;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: top;
+    object-fit: cover;
+    
+}
+
+.fundo1{
+    background-image: url("../imagens/foto1.jpg");
+    width: 100%;
+	height: 100%;
+}
+
+.navbar {
+    
+    background-color: rgba(31, 30, 30, 0.521);
+    color: #fff;
+    text-align: left;
+    width: 100%;
+    height: 80px;
+    ;
+}
+
+.navbar ul {
+    display: inline-flex;
+    list-style: none;
+    color: #fff;
+    padding: 8px;
+}
+
+.navbar img{
+    padding: 4px; 
+    width: 160px;
+    height: 47px;
+    margin-left: -35px;
+}
+
+.navbar ul li{
+    width: 124px;
+    margin: -10px;
+    padding: 25px;
+    font-family: arial;
+    font-size: 12px;
+    color: #fff;
+}
+
+.navbar ul li span{
+    font-size: 10px;
+    color:rgb(202, 197, 197);
+}
+
+a:link {
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+a:visited {
+    color:#fff;
+}
+
+a:hover{
+    background-color: none;
+    text-decoration: none;
+    color: rgb(202, 197, 197);
+}
+
+a:active {
+    background-color: underline;
+}
+
+.text-center {
+    text-align: center;
+    color: white;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+}
+
+.fs-60 {
+    font-size: 60px!important;
+    color: #fff;
+    font-weight: 500;
+    font-family:Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.meio {
+    margin-top: 15%;
+    display: block;
+}
+
+.link {
+    width: 100%;
+}
+
+.icone {
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-top: 17px;
+}
+
+.botao1 {
+    background: transparent;
+    color: white;
+    border: 2.9px solid white;
+    font-size: 12px;
+    font-family: Arial;
+    letter-spacing: 2px;
+    padding: 14px 35px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 31px 30px;
+}
+
+.botao1:hover {
+    background-color: rgb(233, 105, 1);
+    color: white;
+    border:rgb(233, 105, 1);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.fotoLinha {
+    width: 370px;
+    height: 310px;
+    margin-left: -50px;
+    padding: 58px;
+
+}
+
+h4 {
+    font-size: 17px;
+    font-family: "Josefin Sans",sans-serif;
+    font-style: bold;
+    color: white;
+    text-align: center;
+    margin-top: -40px;
+}
+
+.textoLinha {
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+
+.linhadivisao {
+    color: rgb(129, 129, 129);
+    text-align: center;
+}
+
+
+
+
