@@ -1,7 +1,14 @@
 .pelicula {
-    background: rgba(10, 10, 10, 0.219);
+    background: rgba(10, 10, 10, 0.30);
     
     height: 100vh;
+    
+}
+
+.pelicula2 {
+    background: rgba(10, 10, 10, 0.30);
+    
+    height: 100%;
     
 }
 
@@ -18,10 +25,50 @@ body{
 
 .fundo1{
     background-image: url("../imagens/foto1.jpg");
+    background-size: cover;
     width: 100%;
 	height: 100%;
 }
 
+.fundo2 {
+    background-image: url("../imagens/foto2.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 110vh;
+    position:relative;
+    overflow:hidden;
+}
+
+.fundo3 {
+    background-image: url("../imagens/foto3.jpg");
+    background-size: cover;    
+    width: 100%;
+    height: 100vh;
+}
+
+.fundo4 {
+    background-image: url("../imagens/foto4.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transition: 0.3s;
+    
+}
+
+header.sticky{
+    margin-top: -35px; 
+    background: black;
+}
 .navbar {
     
     background-color: rgba(31, 30, 30, 0.521);
@@ -29,7 +76,6 @@ body{
     text-align: left;
     width: 100%;
     height: 80px;
-    ;
 }
 
 .navbar ul {
@@ -97,8 +143,8 @@ a:active {
 }
 
 .meio {
-    margin-top: 15%;
     display: block;
+    padding-top: 22%;
 }
 
 .link {
@@ -117,7 +163,7 @@ a:active {
     color: white;
     border: 2.9px solid white;
     font-size: 12px;
-    font-family: Arial;
+    font-family: "Josefin Sans",sans-serif;
     letter-spacing: 2px;
     padding: 14px 35px;
     cursor: pointer;
@@ -134,12 +180,38 @@ a:active {
     transition: all 0.4s;
 }
 
+.botao2 {
+    background: transparent;
+    color: white;
+    border: 2.9px solid white;
+    font-size: 17px;
+    font-family: "Josefin Sans",sans-serif;
+    letter-spacing: 2px;
+    padding: 12px 45px;
+    cursor: pointer;
+    display: inline-block;
+    margin: 31px 30px;
+}
+
+.botao2:hover {
+    background-color: rgb(233, 105, 1);
+    color: white;
+    border:rgb(233, 105, 1);
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
 .fotoLinha {
     width: 370px;
     height: 310px;
     margin-left: -50px;
     padding: 58px;
+}
 
+h1 {
+    color: white;
+    font-weight: 400;
 }
 
 h4 {
@@ -149,6 +221,13 @@ h4 {
     color: white;
     text-align: center;
     margin-top: -40px;
+    letter-spacing: 1px;
+}
+
+h5 {
+    font-weight: 300;
+    color: white;
+    letter-spacing: 1px;
 }
 
 .textoLinha {
@@ -160,6 +239,69 @@ h4 {
 .linhadivisao {
     color: rgb(129, 129, 129);
     text-align: center;
+}
+
+.textoMeio {
+    text-align: center;
+    color: white;
+}
+
+.height100 {
+    height: 100%;
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0;
+}
+
+.titulo4 {
+    font-size: 50px;
+    color: white;
+    font-family: "Josefin Sans",sans-serif;
+    font-weight: 300;
+    text-transform: uppercase!important;
+}
+
+.subtitulo4 {
+    color: white;
+    font-size: 23px;
+    font-weight: 200;
+    font-family: "Josefin Sans",sans-serif;
+    letter-spacing: 1px;
+}
+
+.rodape {
+    color: white;
+    
+}
+
+.foto2text {
+    padding: 300px;
+    margin-left: -300px;
+}
+
+.rodapeletra {
+    font-size: 20px;
+    font-family: "Josefin Sans",sans-serif;
+    font-style: bold;
+    color: white;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding: 4px;
+}
+
+.rodapequadro {
+    background-color: rgba(59, 59, 59, 0.5);
+    width: 250px;
+    height: 40px;
+}
+
+.rodapefoto1 {
+    width: 90px;
+    padding: 10px;
+    margin-left: -10px;
+    font-weight: 300;
 }
 
 
